@@ -1,0 +1,46 @@
+object Adheyatma_tugasPD2: TAdheyatma_tugasPD2
+  Left = 243
+  Height = 240
+  Top = 164
+  Width = 320
+  Caption = 'Adheyatma_tugasPD2'
+  ClientHeight = 240
+  ClientWidth = 320
+  OnCreate = FormCreate
+  LCLVersion = '1.0.14.0'
+  object AdheYatma: TEdit
+    Left = 72
+    Height = 23
+    Top = 80
+    Width = 144
+    OnChange = AdheYatmaChange
+    TabOrder = 0
+  end
+  object Tampil: TButton
+    Left = 176
+    Height = 25
+    Top = 120
+    Width = 63
+    AutoSize = True
+    Caption = 'Tampil'
+    OnClick = TampilClick
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 33
+    Height = 25
+    Top = 120
+    Width = 75
+    Caption = 'Reset'
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+  object hasil: TLabel
+    Left = 72
+    Height = 1
+    Top = 24
+    Width = 1
+    ParentColor = False
+    OnClick = hasilClick
+  end
+end
